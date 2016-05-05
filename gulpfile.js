@@ -27,10 +27,7 @@ gulp.task('concat-js',function(){
 gulp.task('compress-js',['concat-js'],function(){
 	var bower = require('./bower.json');
 	var banner = ['/**',
-		' * <%= bower.name %> - <%= bower.description %>',
-		' * @version v<%= bower.version %>',
-		' * @author <%= bower.authors[0].name %>, <%= bower.authors[0].email %>',
-		' * @license <%= bower.licenses[0].type %>, <%= bower.licenses[0].url %>',
+		' * https://github.com/jday3/angular-dialog-service',
 		' */',
 		''].join('\n');
 
