@@ -22,7 +22,7 @@ angular.module('dialogs.services',['ui.bootstrap.modal','dialogs.controllers'])
 			_opts.kb = (angular.isDefined(opts.keyboard)) ? !!opts.keyboard : _k; // values: true,false
 			_opts.bd = (angular.isDefined(opts.backdrop)) ? opts.backdrop : _b; // values: 'static',true,false
 			_opts.bdc = (angular.isDefined(opts.backdropClass)) ? opts.backdropClass : _bdc; // additional CSS class(es) to be added to the modal backdrop
-			_opts.ws = (angular.isDefined(opts.size) && ((opts.size === 'sm') || (opts.size === 'lg') || (opts.size === 'md'))) ? opts.size : _wSize; // values: 'sm', 'lg', 'md'
+			_opts.ws = (angular.isDefined(opts.size)) ? opts.size : _wSize; // values: 'sm', 'lg', 'md'
 			_opts.wc = (angular.isDefined(opts.windowClass)) ? opts.windowClass : _w; // additional CSS class(es) to be added to a modal window
 			_opts.anim = (angular.isDefined(opts.animation)) ? !!opts.animation : _animation; // values: true,false
 			_opts.yes = (angular.isDefined(opts.yes)) ? opts.yes : _yes; // yes button text
