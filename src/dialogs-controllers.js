@@ -84,7 +84,7 @@ ctrlrs.controller('notifyDialogCtrl',['$scope','$uibModalInstance','$translate',
 
 	$scope.header = (angular.isDefined(data.header)) ? data.header : $translate.instant('DIALOGS_NOTIFICATION');
 	$scope.msg = (angular.isDefined(data.msg)) ? data.msg : $translate.instant('DIALOGS_NOTIFICATION_MSG');
-	$scope.icon = (angular.isDefined(data.fa) && angular.equals(data.fa,true)) ? 'fa fa-info' : 'glyphicon glyphicon-info-sign';
+	$scope.icon = (angular.isDefined(data.fa) && angular.equals(data.fa,true)) ? 'fa fa-check-square-o' : 'glyphicon glyphicon-info-sign';
 	$scope.buttons = data.buttons;
 
 	//-- Methods -----//
@@ -103,7 +103,7 @@ ctrlrs.controller('confirmDialogCtrl',['$scope','$uibModalInstance','$translate'
 
 	$scope.header = (angular.isDefined(data.header)) ? data.header : $translate.instant('DIALOGS_CONFIRMATION');
 	$scope.msg = (angular.isDefined(data.msg)) ? data.msg : $translate.instant('DIALOGS_CONFIRMATION_MSG');
-	$scope.icon = (angular.isDefined(data.fa) && angular.equals(data.fa,true)) ? 'fa fa-check' : 'glyphicon glyphicon-check';
+	$scope.icon = (angular.isDefined(data.fa) && angular.equals(data.fa,true)) ? 'fa fa-check-square-o' : 'glyphicon glyphicon-check';
 	$scope.buttons = data.buttons;
 
 	//-- Methods -----//

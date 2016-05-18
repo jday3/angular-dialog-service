@@ -258,7 +258,7 @@ angular.module('dialogs.services',['ui.bootstrap.modal','dialogs.controllers'])
 								return {
 									header : angular.copy(header),
 									msg : angular.copy(msg),
-									fa : false,
+									fa : _fa,
 									buttons : {
 										yes: angular.copy(opts.yes),
 										no: angular.copy(opts.no)
