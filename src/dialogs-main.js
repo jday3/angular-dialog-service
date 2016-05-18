@@ -33,7 +33,7 @@ angular.module('dialogs.main',['dialogs.services','ngSanitize']) // requires ang
 	            DIALOGS_CONFIRMATION_MSG: "Confirmation required.",
 	            DIALOGS_OK: "OK",
 	            DIALOGS_YES: "Yes",
-	            DIALOGS_NO: "No"
+	            DIALOGS_NO: "Cancel"
         	});
 		} // end try/catch
 

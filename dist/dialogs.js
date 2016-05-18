@@ -195,7 +195,7 @@ angular.module('dialogs.services',['ui.bootstrap.modal','dialogs.controllers'])
 		var _wSize = 'lg'; // large modal window default
 		var _animation = false; // true/false to use animation
 		var _yes = 'Yes'; // default yes button text
-		var _no = 'No'; // default no button text
+		var _no = 'Cancel'; // default no button text
 
 		var _fa = false; // fontawesome flag
 
@@ -524,7 +524,7 @@ angular.module('dialogs.main',['dialogs.services','ngSanitize']) // requires ang
 	            DIALOGS_CONFIRMATION_MSG: "Confirmation required.",
 	            DIALOGS_OK: "OK",
 	            DIALOGS_YES: "Yes",
-	            DIALOGS_NO: "No"
+	            DIALOGS_NO: "Cancel"
         	});
 		} // end try/catch
 

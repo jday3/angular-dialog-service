@@ -12,7 +12,7 @@ angular.module('dialogs.services',['ui.bootstrap.modal','dialogs.controllers'])
 		var _wSize = 'lg'; // large modal window default
 		var _animation = false; // true/false to use animation
 		var _yes = 'Yes'; // default yes button text
-		var _no = 'No'; // default no button text
+		var _no = 'Cancel'; // default no button text
 
 		var _fa = false; // fontawesome flag
 
